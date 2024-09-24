@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #f1f2f6;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 10px;
+  text-decoration: underline;
+}
+
+
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: 20px auto;
+}
+#reset {
+  width: 10em;
+  height: 3em;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: red;
+}
